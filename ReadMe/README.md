@@ -6,7 +6,7 @@
 
 #### Complete your Branch Dashboard
 
-![Alt text](/configureDashBoard.png?raw=true "Optional Title")
+![Alt text](./configureDashBoard.png?raw=true "Optional Title")
 
 
 
@@ -29,7 +29,7 @@ after Complete Dashboard setUp
         
         -   Bundle Id matches  [Branch Dashboard](https://dashboard.branch.io/settings/link)
       
-   ![Alt text](/ios-bundle-id.png?raw=true "Optional Title")
+   ![Alt text](./ios-bundle-id.png?raw=true "Optional Title")
       
  ### Configure associated domains
 
@@ -38,13 +38,13 @@ after Complete Dashboard setUp
 -   `test-`  is needed if you need use a  [test key](https://docs.branch.io/apps/react-native/#use-test-key)
 -   If you use a  [custom link domain](https://docs.branch.io/dashboard/integrate/#change-link-domain), you will need to include your old link domain, your  `-alternate`  link domain, and your new link domain
 
-   ![Alt text](/ios-entitlements.png?raw=true "Optional Title")
+   ![Alt text](./ios-entitlements.png?raw=true "Optional Title")
  
 ### Configure entitlements
 
 -   Confirm entitlements are within target
    
-      ![Alt text](/ios-package.png?raw=true "Optional Title")
+      ![Alt text](./ios-package.png?raw=true "Optional Title")
     
 ###  Configure Info.plist
 
@@ -54,14 +54,14 @@ after Complete Dashboard setUp
     -   Add  `branch_key`  with your current Branch key
     -   Add your URI scheme as  `URL Types`  ->  `Item 0`  ->  `URL Schemes`
     
-    ![Alt text](/ios-plist.png?raw=true "Optional Title")
+    ![Alt text](./ios-plist.png?raw=true "Optional Title")
     
     
  ### Confirm app prefix
 
   - From your  [Apple Developer Account]
   
-  ![Alt text](/ios-team-id.png?raw=true "Optional Title")
+  ![Alt text](./ios-team-id.png?raw=true "Optional Title")
   
   **Install Branch**
   Pure React Native App
